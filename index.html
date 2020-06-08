@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DAY-NIGHT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+
+<body id="god">
+
+  <div class="container">
+    <input type="checkbox" onclick="daynight()" id="dn">
+  </div>
+
+    <div id="top"><tt>DAY-NIGHT</tt></div>
+    <div id="message"><tt>TOGGLE BUTTON</tt></div>
+
+  <div id="mes">
+    <em><h2>GOOD NIGHT</h2></em>
+  </div>
+  <script>
+  function daynight() {
+    // Get the checkbox
+    var a = document.getElementById("dn");
+
+    // Get the output text
+    var b = document.getElementById("god");
+    var c = document.getElementById("message");
+    var d = document.getElementById("mes");
+    var e = document.getElementById("top");
+
+
+    // If the checkbox is checked, display the output text
+   if (a.checked == true) {
+      b.style.background = "white";
+      c.style.color ="#faa843";
+      e.style.color = "#a31b00";
+      d.style.color = "#badb00";
+      d.innerHTML = "GOOD MORNING!";
+
+    } else {
+      b.style.background = "black";
+      c.style.color ="#d505f5";
+      e.style.color = "#5802ad";
+      d.style.color = "#a6637c";
+      d.innerHTML = "GOOD NIGHT!";
+
+
+    }
+  }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+#god {
+  background: black;
+}
+#top{
+  text-align: center;
+  font-size: 6em;
+  font-weight: bolder;
+  color: #5802ad;
+  font-family: "Times New Roman", Times, serif;
+
+
+}
+#message{
+  font-family: Arial, Helvetica, sans-serif;;
+  text-align: center;
+  font-size: 3.8em;
+  font-weight: bolder;
+  color: #d505f5;
+}
+#mes{
+  font-family: "Lucida Console", Courier, monospace;;
+  text-align: center;
+  font-size: 5em;
+  font-weight: bolder;
+  color: ##a6637c;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"] {
+  width: 200px;
+  height: 80px;
+  -webkit-appearance: none;
+  outline: none;
+  background-color: gray;
+  border-radius: 80px;
+  transition: 0.5s;
+  box-shadow: inset 0px 0px 5px gray;
+}
+
+input:checked[type="checkbox"] {
+  background-color: #03a9f4;
+}
+input[type="checkbox"]:before {
+  content: " ";
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  border-radius: 95px;
+  box-shadow: 0px 0px 5px gray;
+  background-color: transparent;
+  top: -5px;
+  left: -4px;
+  transition: 0.5s;
+  background-size: 100%;
+  background-image: url("https://i.ibb.co/stFTRD9/kisspng-full-moon-drawing-moon-png-hd-5ab035b6106b23-2535887215214975260673.png");
+}
+
+input:checked[type="checkbox"]:before {
+  position: absolute;
+  left: 115px;
+  background-image: url("https://i.ibb.co/xmqp7hg/sun-PNG13419.png");
+  background-size: 100%;
+}
