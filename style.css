@@ -1,5 +1,15 @@
-#god {
-  background: black;
+#god{
+
+
+  background-image: "url(https://wallpapersprinted.com/download/2/early_morning_in_bulgaria-wallpaper-1280x800.jpg)"
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 #top{
   text-align: center;
@@ -46,7 +56,7 @@ input:checked[type="checkbox"] {
   background-color: #03a9f4;
 }
 input[type="checkbox"]:before {
-  content: " ";
+  content:" ";
   position: absolute;
   width: 95px;
   height: 95px;
